@@ -24,7 +24,6 @@ public class Start {
 
         Runner[] runners = {catTom, catLarry, catBoris, humanMax, humanAnna, humanAlex, robotVally, robotEva, robotBender};
 
-
         Obstacles wall = new Wall(5);
         Obstacles wall1 = new Wall(6);
         Obstacles wall2 = new Wall(7);
@@ -35,7 +34,6 @@ public class Start {
 
         Obstacles[] obstacles = {wall, wall1, wall2, treadmill, treadmill1, treadmill2};
 
-
         System.out.println("Гонка началась!");
         for (int i = 0; i < obstacles.length; i++) {
             System.out.println("\n\nИспытание " + (i + 1));
@@ -45,7 +43,6 @@ public class Start {
                     System.out.println("------------");
                     obstacles[i].check(runner);
                 }
-
             }
         }
     }
