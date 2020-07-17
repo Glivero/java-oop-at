@@ -1,12 +1,12 @@
-package ru.geekbrains.java.oop.at;
+package ru.geekbrains.java.oop.at.lesson1;
 
-import ru.geekbrains.java.oop.at.obstacles.Obstacles;
-import ru.geekbrains.java.oop.at.obstacles.Treadmill;
-import ru.geekbrains.java.oop.at.obstacles.Wall;
-import ru.geekbrains.java.oop.at.participants.Cat;
-import ru.geekbrains.java.oop.at.participants.Human;
-import ru.geekbrains.java.oop.at.participants.Robot;
-import ru.geekbrains.java.oop.at.participants.Runner;
+import ru.geekbrains.java.oop.at.lesson1.obstacles.Obstacles;
+import ru.geekbrains.java.oop.at.lesson1.obstacles.Treadmill;
+import ru.geekbrains.java.oop.at.lesson1.obstacles.Wall;
+import ru.geekbrains.java.oop.at.lesson1.participants.Cat;
+import ru.geekbrains.java.oop.at.lesson1.participants.Human;
+import ru.geekbrains.java.oop.at.lesson1.participants.Robot;
+import ru.geekbrains.java.oop.at.lesson1.participants.Runner;
 
 public class Start {
     public static void main(String[] args) {

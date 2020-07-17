@@ -1,4 +1,4 @@
-package ru.geekbrains.java.oop.at.participants;
+package ru.geekbrains.java.oop.at.lesson1.participants;
 
 public class Human implements Runner {
     private String name;

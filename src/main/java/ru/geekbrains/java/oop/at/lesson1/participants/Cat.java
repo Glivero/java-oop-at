@@ -1,12 +1,13 @@
-package ru.geekbrains.java.oop.at.participants;
+package ru.geekbrains.java.oop.at.lesson1.participants;
 
-public class Robot implements Runner {
+public class Cat implements Runner {
+
     private String name;
     private int maxLength;
     private int maxWeight;
     private boolean success = true;
 
-    public Robot(String name, int maxLength, int maxWeight) {
+    public Cat(String name, int maxLength, int maxWeight) {
         this.name = name;
         this.maxLength = maxLength;
         this.maxWeight = maxWeight;
