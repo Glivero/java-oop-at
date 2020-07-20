@@ -1,0 +1,320 @@
+Index: src/main/java/ru/geekbrains/java/oop/at/example5/Animal.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example5/Animal.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example5/Animal.java	(date 1595245849007)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example5;
++package ru.geekbrains.java.oop.at.Examples.example5;
+ 
+ public class Animal {
+     protected String name;
+Index: src/main/java/ru/geekbrains/java/oop/at/example6/Start.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example6/Start.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example6/Start.java	(date 1595245849028)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example6;
++package ru.geekbrains.java.oop.at.Examples.example6;
+ 
+ public class Start {
+     public static void main(String[] args) {
+Index: src/main/java/ru/geekbrains/java/oop/at/example6/Dog.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example6/Dog.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example6/Dog.java	(date 1595245849085)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example6;
++package ru.geekbrains.java.oop.at.Examples.example6;
+ 
+ public class Dog extends Animal {
+     public Dog(String name) {
+Index: src/main/java/ru/geekbrains/java/oop/at/example6/Cat.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example6/Cat.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example6/Cat.java	(date 1595245849149)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example6;
++package ru.geekbrains.java.oop.at.Examples.example6;
+ 
+ public class Cat extends Animal {
+ 
+Index: src/main/java/ru/geekbrains/java/oop/at/example6/AnimalFood.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example6/AnimalFood.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example6/AnimalFood.java	(date 1595245849021)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example6;
++package ru.geekbrains.java.oop.at.Examples.example6;
+ 
+ public class AnimalFood {
+     private String name;
+Index: src/main/java/ru/geekbrains/java/oop/at/example6/Animal.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example6/Animal.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example6/Animal.java	(date 1595245848926)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example6;
++package ru.geekbrains.java.oop.at.Examples.example6;
+ 
+ public class Animal {
+     protected String name;
+Index: src/main/java/ru/geekbrains/java/oop/at/example7/Start.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example7/Start.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example7/Start.java	(date 1595245849121)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example7;
++package ru.geekbrains.java.oop.at.Examples.example7;
+ 
+ public class Start {
+     public static void main(String[] args) {
+Index: src/main/java/ru/geekbrains/java/oop/at/example7/Dog.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example7/Dog.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example7/Dog.java	(date 1595245849115)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example7;
++package ru.geekbrains.java.oop.at.Examples.example7;
+ 
+ public class Dog extends Animal {
+ 
+Index: src/main/java/ru/geekbrains/java/oop/at/example7/Cat.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example7/Cat.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example7/Cat.java	(date 1595245848908)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example7;
++package ru.geekbrains.java.oop.at.Examples.example7;
+ 
+ public class Cat extends Animal {
+ 
+Index: src/main/java/ru/geekbrains/java/oop/at/example7/AnimalFood.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example7/AnimalFood.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example7/AnimalFood.java	(date 1595245849093)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example7;
++package ru.geekbrains.java.oop.at.Examples.example7;
+ 
+ public class AnimalFood {
+     private String name;
+Index: src/main/java/ru/geekbrains/java/oop/at/example7/Animal.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example7/Animal.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example7/Animal.java	(date 1595245848943)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example7;
++package ru.geekbrains.java.oop.at.Examples.example7;
+ 
+ public abstract class Animal {
+     protected String name;
+Index: src/main/java/ru/geekbrains/java/oop/at/example2/Start.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example2/Start.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example2/Start.java	(date 1595245848952)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example2;
++package ru.geekbrains.java.oop.at.Examples.example2;
+ 
+ public class Start {
+     public static void main(String[] args) {
+Index: src/main/java/ru/geekbrains/java/oop/at/example2/CatFood.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example2/CatFood.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example2/CatFood.java	(date 1595245848977)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example2;
++package ru.geekbrains.java.oop.at.Examples.example2;
+ 
+ public class CatFood {
+     private String name;
+Index: src/main/java/ru/geekbrains/java/oop/at/example2/Cat.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example2/Cat.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example2/Cat.java	(date 1595245849059)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example2;
++package ru.geekbrains.java.oop.at.Examples.example2;
+ 
+ public class Cat {
+ 
+Index: src/main/java/ru/geekbrains/java/oop/at/example4/Start.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example4/Start.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example4/Start.java	(date 1595245849107)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example4;
++package ru.geekbrains.java.oop.at.Examples.example4;
+ 
+ public class Start {
+     public static void main(String[] args) {
+Index: src/main/java/ru/geekbrains/java/oop/at/example4/Dog.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example4/Dog.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example4/Dog.java	(date 1595245848935)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example4;
++package ru.geekbrains.java.oop.at.Examples.example4;
+ 
+ public class Dog extends Animal{
+     public void barking(){
+Index: src/main/java/ru/geekbrains/java/oop/at/example4/Cat.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example4/Cat.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example4/Cat.java	(date 1595245848985)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example4;
++package ru.geekbrains.java.oop.at.Examples.example4;
+ 
+ public class Cat extends Animal{
+ 
+Index: src/main/java/ru/geekbrains/java/oop/at/example4/Animal.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example4/Animal.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example4/Animal.java	(date 1595245849135)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example4;
++package ru.geekbrains.java.oop.at.Examples.example4;
+ 
+ public class Animal {
+     protected String name;
+Index: src/main/java/ru/geekbrains/java/oop/at/example5/Start.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example5/Start.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example5/Start.java	(date 1595245849068)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example5;
++package ru.geekbrains.java.oop.at.Examples.example5;
+ 
+ public class Start {
+     public static void main(String[] args) {
+Index: src/main/java/ru/geekbrains/java/oop/at/example5/Dog.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example5/Dog.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example5/Dog.java	(date 1595245849142)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example5;
++package ru.geekbrains.java.oop.at.Examples.example5;
+ 
+ public class Dog extends Animal {
+     public void barking(){
+Index: src/main/java/ru/geekbrains/java/oop/at/example5/Cat.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example5/Cat.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example5/Cat.java	(date 1595245849014)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example5;
++package ru.geekbrains.java.oop.at.Examples.example5;
+ 
+ public class Cat extends Animal {
+ 
+Index: src/main/java/ru/geekbrains/java/oop/at/example5/AnimalFood.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example5/AnimalFood.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example5/AnimalFood.java	(date 1595245848992)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example5;
++package ru.geekbrains.java.oop.at.Examples.example5;
+ 
+ public class AnimalFood {
+     private String name;
+Index: src/main/java/ru/geekbrains/java/oop/at/example9/Start.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example9/Start.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example9/Start.java	(date 1595245849127)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example9;
++package ru.geekbrains.java.oop.at.Examples.example9;
+ 
+ public class Start {
+     public static void main(String[] args) {
+Index: src/main/java/ru/geekbrains/java/oop/at/example9/Security.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example9/Security.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example9/Security.java	(date 1595245848960)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example9;
++package ru.geekbrains.java.oop.at.Examples.example9;
+ 
+ public interface Security {
+     void houseSecurity();
+Index: src/main/java/ru/geekbrains/java/oop/at/example9/Mouse.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example9/Mouse.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example9/Mouse.java	(date 1595245849051)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example9;
++package ru.geekbrains.java.oop.at.Examples.example9;
+ 
+ public class Mouse extends Animal {
+ 
+Index: src/main/java/ru/geekbrains/java/oop/at/example9/Dog.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example9/Dog.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example9/Dog.java	(date 1595245849100)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example9;
++package ru.geekbrains.java.oop.at.Examples.example9;
+ 
+ public class Dog extends Animal implements Security{
+ 
+Index: src/main/java/ru/geekbrains/java/oop/at/example9/Cat.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example9/Cat.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example9/Cat.java	(date 1595245849043)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example9;
++package ru.geekbrains.java.oop.at.Examples.example9;
+ 
+ public class Cat extends Animal implements Security {
+ 
+Index: src/main/java/ru/geekbrains/java/oop/at/example9/AnimalFood.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example9/AnimalFood.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example9/AnimalFood.java	(date 1595245848917)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example9;
++package ru.geekbrains.java.oop.at.Examples.example9;
+ 
+ public class AnimalFood {
+     private String name;
+Index: src/main/java/ru/geekbrains/java/oop/at/example9/Animal.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example9/Animal.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example9/Animal.java	(date 1595245848968)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example9;
++package ru.geekbrains.java.oop.at.Examples.example9;
+ 
+ public abstract class Animal {
+     protected String name;
+Index: src/main/java/ru/geekbrains/java/oop/at/example1/Start.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example1/Start.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example1/Start.java	(date 1595245849077)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example1;
++package ru.geekbrains.java.oop.at.Examples.example1;
+ 
+ public class Start {
+     public static void main(String[] args) {
+Index: src/main/java/ru/geekbrains/java/oop/at/example1/CatFood.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example1/CatFood.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example1/CatFood.java	(date 1595245849000)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example1;
++package ru.geekbrains.java.oop.at.Examples.example1;
+ 
+ public class CatFood {
+     public String name;
+Index: src/main/java/ru/geekbrains/java/oop/at/example1/Cat.java
+===================================================================
+--- src/main/java/ru/geekbrains/java/oop/at/example1/Cat.java	(revision 3bba0061c9a08ebee1b92dc5e6c970e3f279cef3)
++++ src/main/java/ru/geekbrains/java/oop/at/Examples/example1/Cat.java	(date 1595245849035)
+@@ -1,4 +1,4 @@
+-package ru.geekbrains.java.oop.at.example1;
++package ru.geekbrains.java.oop.at.Examples.example1;
+ 
+ public class Cat {
+ 
