@@ -1,4 +1,4 @@
-package ru.geekbrains.java.oop.at;
+package ru.geekbrains.java.oop.at.Examples;
 
 public class CatFood {
     private String productName;
