@@ -15,7 +15,7 @@ public abstract class BaseTest {
     public WebDriverWait wait15second;
 
     @BeforeEach
-    public void beforeAll() throws InterruptedException {
+    public void beforeAll() {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
