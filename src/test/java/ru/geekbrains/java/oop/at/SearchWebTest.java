@@ -1,5 +1,6 @@
 package ru.geekbrains.java.oop.at;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -12,6 +13,11 @@ import static org.hamcrest.Matchers.*;
 
 @DisplayName("Поиск")
 public class SearchWebTest extends BaseWebTest {
+
+    @BeforeEach
+    public void beforeEach(){
+        driver.get("https://geekbrains.ru/events");
+    }
 
     @DisplayName("Проверка поиска по всем блокам")
     @Test
