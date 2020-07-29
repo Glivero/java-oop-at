@@ -24,9 +24,15 @@ public class ContentPage extends PageFactory {
     @FindBy(css = "button [class=\"svg-icon icon-popup-close-button \"]")
     private WebElement buttonClosePopUp2;
 
+    @FindBy(xpath = "//span[text()='Тестирование ПО. Уровень 2']")
+    private WebElement test2;
+
+    @FindBy(xpath = "//span[text()='Тестирование ПО. Уровень 1']")
+    private WebElement test1;
+
     private Navigation navigation;
 
-    public ContentPage(WebDriver driver){
+    public ContentPage(WebDriver driver) {
         initElements(driver, this);
         navigation = new Navigation(driver);
     }
@@ -35,12 +41,20 @@ public class ContentPage extends PageFactory {
         return navigation;
     }
 
-    public void checkNamePage(String expectedNamePage){
+    public void checkNamePage(String expectedNamePage) {
         Assertions.assertEquals(expectedNamePage, namePage.getText());
     }
 
     public WebElement getButtonClosePopUp1() {
         return buttonClosePopUp1;
+    }
+
+    public WebElement getTest2() {
+        return test2;
+    }
+
+    public WebElement getTest1() {
+        return test1;
     }
 
     public WebElement getButtonClosePopUp2() {
@@ -53,9 +67,5 @@ public class ContentPage extends PageFactory {
 
     public WebElement getFooter() {
         return footer;
-    }
-
-    public WebElement getNamePage() {
-        return namePage;
     }
 }

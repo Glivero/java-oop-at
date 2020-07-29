@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Navigation extends PageFactory {
 
-    public Navigation(WebDriver driver){
+    public Navigation(WebDriver driver) {
         initElements(driver, this);
     }
 
@@ -29,31 +29,28 @@ public class Navigation extends PageFactory {
     @FindBy(css = "[id=\"nav\"] [href=\"/courses\"]")
     private WebElement buttonCourses;
 
-    public WebElement getButton(String nameButton){
+    public WebElement getButton(String nameButton) {
 
-        switch (nameButton){
-            case "Курсы":{
+        switch (nameButton) {
+            case "Курсы": {
                 return buttonCourses;
             }
-            case "Вебинары":{
+            case "Вебинары": {
                 return buttonEvents;
             }
-            case "Форум":{
+            case "Форум": {
                 return buttonTopics;
             }
-            case "Блог":{
+            case "Блог": {
                 return buttonPosts;
             }
-            case "Тесты":{
+            case "Тесты": {
                 return buttonTests;
             }
-            case "Карьера":{
+            case "Карьера": {
                 return buttonCareer;
             }
         }
-
-        throw new RuntimeException("кнопки: "+ nameButton+ "нет на странице.");
+        throw new RuntimeException("кнопки: " + nameButton + " нет на странице!");
     }
-
 }
-

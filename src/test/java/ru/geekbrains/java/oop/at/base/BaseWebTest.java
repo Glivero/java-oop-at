@@ -30,8 +30,10 @@ public abstract class BaseWebTest {
 
         wait15second = new WebDriverWait(driver, 15);
     }
+
     @AfterEach
     public void BaseTestAfterAll() {
         driver.quit();
     }
+
 }
