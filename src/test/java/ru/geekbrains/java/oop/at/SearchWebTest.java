@@ -15,12 +15,14 @@ import static org.hamcrest.Matchers.*;
 
 @Feature("Поиск")
 @Story("Проверка отображения блоков")
+@DisplayName("Проверка отображения блоков")
 public class SearchWebTest extends BeforeAndAfterStep {
 
     @BeforeEach
     void beforeSearchTest() {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
+
 
     @DisplayName("Проверка количества контента")
     @Test

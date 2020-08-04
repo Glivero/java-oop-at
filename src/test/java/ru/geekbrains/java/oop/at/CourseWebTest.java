@@ -31,7 +31,6 @@ public class CourseWebTest extends BeforeAndAfterStep {
                         "Тестирование ПО. Уровень 1",
                         "Тестирование ПО. Уровень 2"
                 )
-        ;
-
-    }
+                ;
+            }
 }

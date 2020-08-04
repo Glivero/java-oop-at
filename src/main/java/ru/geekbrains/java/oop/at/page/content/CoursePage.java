@@ -9,7 +9,6 @@ import ru.geekbrains.java.oop.at.block.ContentNavigationCourseBlock;
 import ru.geekbrains.java.oop.at.page.content.base.ContentBasePage;
 
 import java.util.List;
-
 public class CoursePage extends ContentBasePage {
 
     private ContentNavigationCourseBlock contentNavigationCourseBlock;
@@ -52,4 +51,3 @@ public class CoursePage extends ContentBasePage {
         return this;
     }
 }
-
