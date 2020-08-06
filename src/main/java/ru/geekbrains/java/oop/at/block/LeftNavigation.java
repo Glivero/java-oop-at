@@ -39,8 +39,7 @@ public class LeftNavigation extends BasePageObject {
         PageFactory.initElements(driver, this);
     }
 
-
-    @Step("Нажатие кнопки {nameButton}")
+    @Step("Нажатие кнопки {button}")
     public ContentBasePage clickButton(Button button) {
         ContentBasePage contentBasePage = null;
 
@@ -54,15 +53,12 @@ public class LeftNavigation extends BasePageObject {
                 contentBasePage = new CoursePage(driver);
                 break;
             case EVENTS:
-                //TODO доработать под другие кнопки
                 buttonEvents.click();
                 break;
             case TOPICS:
-                //TODO доработать под другие кнопки
                 buttonTopics.click();
                 break;
             case POSTS:
-                //TODO доработать под другие кнопки
                 buttonPosts.click();
                 break;
             case TESTS:
@@ -70,7 +66,6 @@ public class LeftNavigation extends BasePageObject {
                 contentBasePage = new TestPage(driver);
                 break;
             case CAREER:
-                //TODO доработать под другие кнопки
                 buttonCareer.click();
                 break;
         }

@@ -30,11 +30,9 @@ public class ContentNavigationCourseBlock extends BasePageObject {
         switch (tab) {
             case PROFESSIONS: {
                 tabProfessions.click();
-                //TODO нужно реализовать для данного блока
             }
             case FREE_INTENSIVE: {
                 tabFreeIntensive.click();
-                //TODO нужно реализовать для данного блока
             }
             case COURSES: {
                 tabCourses.click();
@@ -42,7 +40,6 @@ public class ContentNavigationCourseBlock extends BasePageObject {
             }
             case COMPANIES: {
                 tabCompanies.click();
-                //TODO нужно реализовать для данного блока
             }
         }
         return new CoursePage(driver);

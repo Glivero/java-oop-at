@@ -14,7 +14,6 @@ import static org.hamcrest.Matchers.equalToCompressingWhiteSpace;
 
 public class HeaderBlock extends BasePageObject {
 
-    //////////////////////общие поля
     @FindBy(css = "[class='gb-header__title']")
     protected WebElement headerTitlePage;
 
@@ -23,17 +22,13 @@ public class HeaderBlock extends BasePageObject {
 
     @FindBy(css = "input[class='search-panel__search-field']")
     protected WebElement inputSearch;
-    //////////////////////
 
-    //////////////////////Поля только для НЕ авторизованного
     @FindBy(css = "[href='/login']")
     private WebElement singIn;
 
     @FindBy(css = "href='/register'")
     private WebElement registration;
-    //////////////////////
 
-    //////////////////////Поля только для авторизованного
     @FindBy(css = "header [class='schedule-opener js-schedule-opener']")
     private WebElement buttonCalendar;
 
@@ -48,7 +43,6 @@ public class HeaderBlock extends BasePageObject {
 
     @FindBy(css = "[class='gb-top-menu__item dropdown']")
     private WebElement buttonAvatar;
-    //////////////////////
 
     public HeaderBlock(WebDriver driver) {
         super(driver);
@@ -65,9 +59,9 @@ public class HeaderBlock extends BasePageObject {
     }
 
     @Step("поиск на сайте по тексту: {exampleNamePage}")
-    public SearchPage searchText(String text) {
+    public SearchPage searchText(String exampleNamePage) {
         buttonSearch.click();
-        inputSearch.sendKeys(text);
+        inputSearch.sendKeys(exampleNamePage);
         return new SearchPage(driver);
     }
 }
