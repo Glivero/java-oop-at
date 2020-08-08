@@ -15,7 +15,7 @@ public abstract class BeforeAndAfterStep {
     public WebDriver driver;
 
     @BeforeEach
-    public void baseTestBeforeAll() {
+    public void TestBeforeAll() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
@@ -28,8 +28,7 @@ public abstract class BeforeAndAfterStep {
     }
 
     @AfterEach
-    public void BaseTestAfterAll() {
-        driver.quit();
+    public void TestAfterAll() { driver.quit();
     }
 
 }
