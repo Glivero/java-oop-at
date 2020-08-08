@@ -4,8 +4,7 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import ru.geekbrains.java.oop.at.BasePageObject;
+import ru.geekbrains.java.oop.at.page.BasePageObject;
 import ru.geekbrains.java.oop.at.page.content.CoursePage;
 import ru.geekbrains.java.oop.at.page.content.HomePage;
 import ru.geekbrains.java.oop.at.page.content.TestPage;
@@ -34,10 +33,7 @@ public class LeftNavigation extends BasePageObject {
     @FindBy(css = "[id='nav'] [href='/career']")
     private WebElement buttonCareer;
 
-    public LeftNavigation(WebDriver driver) {
-        super(driver);
-        PageFactory.initElements(driver, this);
-    }
+    public LeftNavigation(WebDriver driver) { super(driver); }
 
     @Step("Нажатие кнопки {button}")
     public ContentBasePage clickButton(Button button) {
@@ -52,14 +48,14 @@ public class LeftNavigation extends BasePageObject {
                 buttonCourses.click();
                 contentBasePage = new CoursePage(driver);
                 break;
-            case EVENTS:
-                buttonEvents.click();
-                break;
             case TOPICS:
                 buttonTopics.click();
                 break;
             case POSTS:
                 buttonPosts.click();
+                break;
+            case EVENTS:
+                buttonEvents.click();
                 break;
             case TESTS:
                 buttonTests.click();
@@ -78,9 +74,9 @@ public class LeftNavigation extends BasePageObject {
     public enum Button {
         ICON("Главная"),
         COURSES("Курсы"),
-        EVENTS("Вебинары"),
         TOPICS("Форум"),
         POSTS("Блог"),
+        EVENTS("Вебинары"),
         TESTS("Тесты"),
         CAREER("Карьера");
 
@@ -94,5 +90,4 @@ public class LeftNavigation extends BasePageObject {
             return text;
         }
     }
-
 }
