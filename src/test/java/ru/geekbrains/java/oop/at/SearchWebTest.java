@@ -32,8 +32,8 @@ public class SearchWebTest extends BeforeAndAfterStep {
                 .searchText("java")
                 .getSearchTabsBlock()
                 .checkCount(SearchTabsBlock.Tab.PROFESSIONS, greaterThanOrEqualTo(2))
-                .checkCount(SearchTabsBlock.Tab.COURSES, greaterThan(15))
-                .checkCount(SearchTabsBlock.Tab.WEBINARS, allOf(greaterThan(180), lessThan(300)))
+                .checkCount(SearchTabsBlock.Tab.COURSES, greaterThan(5))
+                .checkCount(SearchTabsBlock.Tab.WEBINARS, allOf(greaterThan(180), lessThan(500)))
                 .checkCount(SearchTabsBlock.Tab.BLOGS, greaterThan(300))
                 .checkCount(SearchTabsBlock.Tab.FORUMS, not(350))
                 .checkCount(SearchTabsBlock.Tab.TESTS, not(0));

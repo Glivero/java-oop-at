@@ -28,8 +28,8 @@ public class CourseWebTest extends BeforeAndAfterStep {
         coursePage.getContentNavigationCourseBlock().clickTab(ContentNavigationCourseBlock.Tab.COURSES)
                 .configFilter("Бесплатные", "Тестирование")
                 .checkingDisplayedCourses(
-                        "Тестирование ПО. Уровень 1",
-                        "Тестирование ПО. Уровень 2"
+                        "Основы тестирования ПО",
+                        "Тест-анализ"
                 )
         ;
 

@@ -27,7 +27,7 @@ public class LeftNavigationWebTest extends BeforeAndAfterStep {
     }
 
     @Description("Тесты на проверку функционала без Pop-UP")
-    @DisplayName("Нажатие на элемент навагации")
+    @DisplayName("Нажатие на элемент навигации")
     @ParameterizedTest(name = "{index} => Нажатие на: {0}")
     @MethodSource("stringProviderNotPopUp")
     public void checkNavigationNotPopUp(Button button) {
@@ -38,7 +38,7 @@ public class LeftNavigationWebTest extends BeforeAndAfterStep {
     }
 
     @Test
-    @DisplayName("Нажатие на элемент навагации")
+    @DisplayName("Нажатие на элемент навигации")
     public void checkNavigationPopUp() {
         new TestPage(driver)
                 .openUrl()
